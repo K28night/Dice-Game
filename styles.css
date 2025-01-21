@@ -15,25 +15,25 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 20px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 7rem;
   color: #4ECCA3;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
 
 img {
-  width: 80%;
+  width: 70%;
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 4%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
@@ -42,5 +42,5 @@ footer {
 button{
   height: 40px;
   width: 100px;
- margin-top: 8px;
+ margin-top: 3%;
 }

@@ -7,6 +7,15 @@ let b=0;
 let x="./images/dice"+a+".png";
 
 document.querySelectorAll("img")[0].setAttribute("src",x);
+if(a===b){
+    document.querySelector("h1").innerHTML="Drow";
+}
+else if(b>a){
+    document.querySelector("h1").innerHTML="Player2 won";
+}
+else if(b<a && b!=0)
+    document.querySelector("h1").innerHTML="Player1 won";
+
 });
 const button2=document.getElementById('btn2');
 button2.addEventListener('click', function (){
@@ -20,7 +29,7 @@ button2.addEventListener('click', function (){
     else if(b>a){
         document.querySelector("h1").innerHTML="Player2 won";
     }
-    else
+    else if(b<a)
         document.querySelector("h1").innerHTML="Player1 won";
 
 });
